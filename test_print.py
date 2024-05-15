@@ -17,3 +17,4 @@ process = subprocess.Popen(arg,
 stdout, stderr = process.communicate()
 b=b'\x2B'
 print(stdout)
+print(len(stdout))
