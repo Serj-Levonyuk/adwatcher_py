@@ -4,4 +4,4 @@ import os
 print("321")
 stream = os.popen('whoami')
 output = stream.read()
-output
+print(output)
