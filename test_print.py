@@ -18,3 +18,5 @@ stdout, stderr = process.communicate()
 b=b'\x2B'
 print(stdout)
 print(len(stdout))
+print(len(list(stdout)))
+# print(len(stdout))
