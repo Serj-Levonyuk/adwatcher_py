@@ -14,5 +14,5 @@ process = subprocess.Popen(arg,
                      stdout=subprocess.PIPE, 
                      stderr=subprocess.PIPE)
 stdout, stderr = process.communicate()
-
-print(len(stdout))
+b=b'\13\10'
+print(len(b))
