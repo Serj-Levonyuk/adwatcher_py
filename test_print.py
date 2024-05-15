@@ -15,4 +15,4 @@ process = subprocess.Popen(arg,
                      stderr=subprocess.PIPE)
 stdout, stderr = process.communicate()
 
-print(stdout.len)
+print(len(stdout))
