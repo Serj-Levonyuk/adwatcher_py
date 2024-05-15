@@ -14,5 +14,5 @@ process = subprocess.Popen(arg,
                      stdout=subprocess.PIPE, 
                      stderr=subprocess.PIPE)
 stdout, stderr = process.communicate()
-b=b'\43\13\10'
+b=b'\32\33\34\35\36\37\38\39\40'
 print(b.decode('utf-8'))
