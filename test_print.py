@@ -9,7 +9,7 @@ print("4321")
 # stream = os.popen('ping -c 10 127.0.0.1')
 # output = stream.read()
 # print(output)
-arg=shlex.split("adb exec-out screencap -p")
+arg=shlex.split("adb -s 127.0.0.1 exec-out screencap -p")
 # arg=shlex.split("cat test_print.py")
 process = subprocess.Popen(arg,
                      stdout=subprocess.PIPE, 
