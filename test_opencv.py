@@ -3,7 +3,7 @@ import numpy as np
 
 img = cv2.imread('1.png')
 print(img.shape)
-img2=cv2.cvtColor(img,cv2.color_bgr2gray)
+img2=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 # template = cv2.imread('s.png')
 # w, h = template.shape[:-1]
 
