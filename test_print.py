@@ -5,9 +5,9 @@ import shlex
 import cv2
 #from PIL import Image
 
-for i in range(1,11):
+for i in range(1,1100):
     print(i)
-    time.sleep(10)
+    time.sleep(1)
 print("4321")
 # img = cv2.imread('/sdcard/1.png',cv2.IMREAD_GRAYSCALE)
 # stream = os.popen('adb connect 127.0.0.1:5555')
