@@ -3,7 +3,7 @@ import os
 import subprocess
 import shlex
 import cv2
-from PIL import Image
+#from PIL import Image
 
 for i in range(1,11):
     print(i)
