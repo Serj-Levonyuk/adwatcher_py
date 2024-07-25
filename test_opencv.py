@@ -3,7 +3,7 @@ import numpy as np
 
 img = cv2.imread('1.png')
 
-cv2.circle(img,500,500,200,(255,0,0),thickness=5)
+cv2.circle(img,(500,500),200,(255,0,0),thickness=5)
 # template = cv2.imread('s.png')
 # w, h = template.shape[:-1]
 
